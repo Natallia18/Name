@@ -21,8 +21,3 @@ console.log(value);
 // Array to String
 value = String([1,2,3]);
 console.log(value);
-
-
-
-
-
