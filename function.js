@@ -12,12 +12,13 @@ function user() {
 }
 user();
 // type of argument
-function data_type(value) {
-var dtypes = [Function, RegExp, Number, String, Boolean, Object], num, len;
+function data_type(value)
+{
+var dtypes = [Function, Number, String, Boolean, Object], variable, len;
 if (typeof value === "object" || typeof value === "function") {
-     for (num = 0, len = dtypes.length; num < len; num++) {
-         if (value instanceof dtypes[x]) {
-             return dtypes[num];
+     for (variable = 0, len = dtypes.length; variable < len; variable++) {
+         if (value instanceof dtypes[variable]) {
+             return dtypes[variable];
             }
       }
     }
