@@ -5,15 +5,14 @@ function sum(a,b) {
 console.log(sum (4,5));
 // name + Hello
 var userName = 'Ната';
-function user(){
+function user() {
     userName = 'Ната';
     var message = 'Привет,' + userName;
     console.log(message);
 }
 user();
 // type of argument
-function data_type(value)
-{
+function data_type(value) {
 var dtypes = [Function, RegExp, Number, String, Boolean, Object], num, len;
 if (typeof value === "object" || typeof value === "function") {
      for (num = 0, len = dtypes.length; num < len; num++) {
