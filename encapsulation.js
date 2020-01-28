@@ -1,4 +1,4 @@
-class Person{
+class Person {
     setPersDetails(name,age) {
         this.name = name;
         this.age = age;
