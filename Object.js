@@ -1,22 +1,19 @@
 // property of object
 let user = {    
-    name: "John",  
-    age: 30        
-  };
-  alert( user.name ); 
-  alert( user.age );
-
+name: "John",  
+age: 30        
+};
+console.log( user.name );
+console.log( user.age );
 // change property
 user.name = "Alex";
-alert(user.name);
-
+console.log(user.name);
 // property = function of addition of two digits
-let user = {    
-  name: "John",  
-  age: 30        
+let man = {
+name: "John",  
+age: 50
 };
-
-user.age = function summa(a,b) {
-  return (a+b);
+man.age = function sum(a,b) {
+return (a + b);
 }
-alert(user.age (10,20) );
+console.log(man.age (30,20));
