@@ -1,7 +1,8 @@
 // property of object
-let user = {    
-name: "John",  
-age: 30        
+let user;
+user = {
+    name: "John",
+    age: 30
 };
 console.log( user.name );
 console.log( user.age );
