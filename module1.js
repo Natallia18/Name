@@ -1,4 +1,4 @@
 let user = {
-    name : 'Nata'
+name : 'Nata'
 }
 module.exports = user;
