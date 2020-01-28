@@ -26,6 +26,3 @@ value = ( '22' > '111' );
 console.log(value);
 console.log( true == 1 );
 console.log( false == 0 );
-
-
-
