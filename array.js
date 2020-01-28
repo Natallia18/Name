@@ -19,4 +19,3 @@ var arr = ['10', '12', '14'];
 arr.forEach(function(item,i) {
     res[i]=Boolean(item) });
     console.log(res);
-
