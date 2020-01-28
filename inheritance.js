@@ -1,16 +1,16 @@
-class Dog{
+class Dog {
     setName(name) {
       this.name = name;
     }
-    startRunning(){
+    startRunning() {
       console.log ("The dog " + this.name + " started running");
     }
-    stopBarking(){
+    stopBarking() {
       console.log ("The dog " + this.name + " stopped barking");
     }
   }
-  class Beagle extends Dog{
-  topSpeed(speed){
+  class Beagle extends Dog {
+  topSpeed(speed) {
   console.log ("Top speed for "+this.name+" is "+speed);
     }
   }
