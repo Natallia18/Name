@@ -12,13 +12,11 @@ alert(user.name);
 
 // property = function of addition of two digits
 let user = {    
-    name: "John",  
-    age: 30        
-  };
-  alert( user.name ); 
-  alert( user.age );
+  name: "John",  
+  age: 30        
+};
 
-  user.age = function summa(a,b) {
-    return (a+b);
+user.age = function summa(a,b) {
+  return (a+b);
 }
-alert(summa (10,20) );
+alert(user.age (10,20) );
