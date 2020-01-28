@@ -1,6 +1,6 @@
 let message; 
 message = 'Hello!';
-console.log(message); 
-
+console.log(message);
+// const
 const MY_Const =1; 
 console.log(MY_Const);
