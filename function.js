@@ -39,5 +39,3 @@ for (let i = 0; i < array.length; i++) {
   return arr
 }
 console.log(showMessage(help));
-
-
