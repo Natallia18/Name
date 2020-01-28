@@ -1,7 +1,6 @@
 var now = new Date();
-alert( now );
-
+console.log( now );
 var now = new Date;
-alert(now.getFullYear());
-alert(now.getMonth());
-alert(now.getDate());
+console.log(now.getFullYear());
+console.log(now.getMonth());
+console.log(now.getDate());
