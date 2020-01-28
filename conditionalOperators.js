@@ -6,8 +6,8 @@ if (age > 18) {
     console.log("Не самый взрослый");
 }
 // ?
-let a =2;
-console.log(a > 3? 'Красивый' : 'Умный');
+let num = 2;
+console.log(num > 3? 'Красивый' : 'Умный');
 // comparison
 let value;
 value = 1 > 2;
