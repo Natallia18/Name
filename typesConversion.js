@@ -12,7 +12,6 @@ console.log(x);
 x = a / a;
 console.log(x);
 // Number to String
-value = 40;
 value = (40).toString();
 console.log(value);
 // Boolean to String
