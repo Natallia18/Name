@@ -11,7 +11,7 @@ class Dog {
   }
   class Beagle extends Dog {
   topSpeed(speed) {
-  console.log ("Top speed for "+this.name+" is "+speed);
+  console.log ("Top speed for "+this.name + " is " + speed);
     }
   }
   let myDog = new Beagle();
