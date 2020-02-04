@@ -18,5 +18,5 @@ console.log(value);
 value = String(false);
 console.log(value);
 // Array to String
-value = String([1,2,3]);
+value = String([1, 2, 3]);
 console.log(value);
