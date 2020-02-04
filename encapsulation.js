@@ -11,6 +11,6 @@ class Person {
     }
   }
   let pers1 = new Person();
-  pers1.setPersDetails("Galina, 37");
+  pers1.setPersDetails('Galina', 37);
   console.log (pers1.getPersName());
   console.log (pers1.getPersAge());
