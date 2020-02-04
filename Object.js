@@ -14,7 +14,7 @@ let man = {
 name: "John",  
 age: 50
 };
-man.age = function sum(a,b) {
+man.age = function sum(a, b) {
 return (a + b);
 }
 console.log(man.age (30,20));
