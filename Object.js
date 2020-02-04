@@ -4,8 +4,8 @@ user = {
     name: "John",
     age: 30
 };
-console.log( user.name );
-console.log( user.age );
+console.log(user.name);
+console.log(user.age);
 // change property
 user.name = "Alex";
 console.log(user.name);
